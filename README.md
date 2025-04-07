@@ -1,1 +1,3 @@
-# seasonal-discount-classification
+📌 Proje Başlığı
+# 📌 Mevsimsel İndirim Etkisi Sınıflandırıcı API
+
