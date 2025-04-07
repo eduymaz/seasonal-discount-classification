@@ -8,6 +8,7 @@ Geliştirilen modeller; müşteri alışveriş davranışlarını analiz etmek, 
 
 Bu kapsamda, satış verileri üzerinde eğitilmiş bir Karar Ağacı (Decision Tree) sınıflandırma modeli ile, belirli bir dönemde uygulanan indirimlerin mevsimsel olarak etkili olup olmadığını tahmin eden bir çözüm geliştirilmiştir. Model, FastAPI tabanlı bir servis olarak yapılandırılmıştır ve bu sayede dış sistemler ile kolaylıkla entegre edilebilen, gerçek zamanlı tahmin sunabilen bir makine öğrenimi hizmeti haline getirilmiştir.
 
+* Sunum için [tıklayınız.](https://drive.google.com/drive/folders/1Wvmwc_rJMGqqqV1RH_OTmaPqiEq2CtjG)
 
 ## 2. 📂 Proje Yapısı
 
