@@ -1,7 +1,6 @@
-# 📌 Proje Başlığı: 
-Mevsimsel İndirim Etkisi Sınıflandırıcı API
+# 📌 Mevsimsel İndirim Etkisi Sınıflandırıcı API 
 
-1. 📝 Tanım  
+## 1. 📝 Tanım  
 
 Bu proje, şirketimizde satış verileri üzerinden daha etkili stratejiler geliştirmek ve veri odaklı karar alma süreçlerini güçlendirmek amacıyla yürütülen çok disiplinli bir modelleme sürecinin bir parçası olarak geliştirilmiştir.
 
@@ -10,11 +9,11 @@ Geliştirilen modeller; müşteri alışveriş davranışlarını analiz etmek, 
 Bu kapsamda, satış verileri üzerinde eğitilmiş bir Karar Ağacı (Decision Tree) sınıflandırma modeli ile, belirli bir dönemde uygulanan indirimlerin mevsimsel olarak etkili olup olmadığını tahmin eden bir çözüm geliştirilmiştir. Model, FastAPI tabanlı bir servis olarak yapılandırılmıştır ve bu sayede dış sistemler ile kolaylıkla entegre edilebilen, gerçek zamanlı tahmin sunabilen bir makine öğrenimi hizmeti haline getirilmiştir.
 
 
-2. 📂 Proje Yapısı
+## 2. 📂 Proje Yapısı
 
 Proje, satış verileri üzerinden mevsimsel indirimlerin etkinliğini tahmin etmek üzere oluşturulmuş, veri üretiminden modelleme ve API servisleştirme süreçlerine kadar tüm adımları kapsayan uçtan uca bir makine öğrenimi uygulamasıdır. Aşağıda proje dosyalarının açıklamaları yer almaktadır:
 
-2.1. 🔍 Açıklayıcı Dosyalar
+### 2.1. 🔍 Açıklayıcı Dosyalar
 
 projectQuestion.ipynb
  → Proje kapsamında ele alınan sorunun detaylı tanımı ve çözüm yaklaşımına dair genel bakış.
@@ -25,7 +24,7 @@ project_tutorial.html
 Tutorial.pdf
  → Proje genelinde izlenen yaklaşımı, kullanılan teknikleri ve hedefleri özetleyen dökümantasyon dosyası.
 
-2.2. ⚙️ Uygulama Adımları
+### 2.2. ⚙️ Uygulama Adımları
 
 step1_makedata.py
  → Simülasyon veya örneklem yoluyla veri seti oluşturma sürecini yürütür.
@@ -39,7 +38,7 @@ step3_bestmodelprediction.py
 step4_api_main.py
  → Seçilen modelin FastAPI ile servis haline getirilmesini sağlayan API kodlarını içerir.
 
-3.  📂 Klasörler
+## 3.  📂 Klasörler
  
 data/
  → Ham veriler ve işlem görmüş veri setleri bu klasörde yer almaktadır.
@@ -47,7 +46,7 @@ data/
 results/
  → Model çıktıları, görseller (grafikler, matrisler), eğitim sonuçları ve .pkl formatındaki model dosyaları bu klasörde saklanmaktadır.
 
- 4. 🧪 Kurulum
+ ## 4. 🧪 Kurulum
  
  ```markdown
  # 1. Repository'yi klonlayınız:
