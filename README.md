@@ -16,35 +16,35 @@ Proje, satış verileri üzerinden mevsimsel indirimlerin etkinliğini tahmin et
 
 ### 2.1. 🔍 Açıklayıcı Dosyalar
 
-projectQuestion.ipynb
+`projectQuestion.ipynb`
  → Proje kapsamında ele alınan sorunun detaylı tanımı ve çözüm yaklaşımına dair genel bakış.
 
-project_tutorial.html
+`project_tutorial.html`
  → Veri işleme, model oluşturma ve değerlendirme süreçlerinin adım adım açıklandığı, açıklamalı Jupyter defteri.
 
-Tutorial.pdf
+`Tutorial.pdf`
  → Proje genelinde izlenen yaklaşımı, kullanılan teknikleri ve hedefleri özetleyen dökümantasyon dosyası.
 
 ### 2.2. ⚙️ Uygulama Adımları
 
-step1_makedata.py
+`step1_makedata.py`
  → Simülasyon veya örneklem yoluyla veri seti oluşturma sürecini yürütür.
 
-step2_preprocess.py
+`step2_preprocess.py`
  → Verinin temizlenmesi, dönüştürülmesi ve modele hazır hale getirilmesini sağlar.
 
-step3_bestmodelprediction.py
+`step3_bestmodelprediction.py`
  → Farklı modellerin denenmesi, performanslarının karşılaştırılması ve en uygun modelin seçilip eğitilmesini içerir.
 
-step4_api_main.py
+`step4_api_main.py`
  → Seçilen modelin FastAPI ile servis haline getirilmesini sağlayan API kodlarını içerir.
 
 ## 3.  📂 Klasörler
  
-data/
+- `data/`
  → Ham veriler ve işlem görmüş veri setleri bu klasörde yer almaktadır.
 
-results/
+- `results/`
  → Model çıktıları, görseller (grafikler, matrisler), eğitim sonuçları ve .pkl formatındaki model dosyaları bu klasörde saklanmaktadır.
 
  ## 4. 🧪 Kurulum
