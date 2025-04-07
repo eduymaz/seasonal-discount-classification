@@ -63,7 +63,7 @@ source my_environment/bin/activate
 pip install -r requirements.txt
 ```
 
-5. 🚀 Projenin Çalıştırılması (Usage)
+## 5. 🚀 Projenin Çalıştırılması (Usage)
 
 1. Veri Oluşturma
 ```markdown
