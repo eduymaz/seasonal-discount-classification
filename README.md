@@ -19,7 +19,7 @@ Proje, satış verileri üzerinden mevsimsel indirimlerin etkinliğini tahmin et
 `projectQuestion.ipynb`
  → Proje kapsamında ele alınan sorunun detaylı tanımı ve çözüm yaklaşımına dair genel bakış.
 
-`project_tutorial.html`
+`project_tutorial.ipynb`
  → Veri işleme, model oluşturma ve değerlendirme süreçlerinin adım adım açıklandığı, açıklamalı Jupyter defteri.
 
 `Tutorial.pdf`
