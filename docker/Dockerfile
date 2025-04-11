@@ -23,11 +23,3 @@ EXPOSE 8000
 
 # FastAPI servis :
 CMD ["uvicorn", "algorithms.main:app", "--port", "8000",  "--reload"]
-
-
-
-
-
-
-# docker build -t discount-api ./docker             # Build işlemi 
-# docker run -d -p 8000:8000 discount-api   # Run (API'yi başlatma)
